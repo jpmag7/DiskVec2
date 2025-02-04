@@ -29,9 +29,6 @@ setup(
     description="Python bindings for DiskVec",
     ext_modules=ext_modules,
     cmdclass={"build_ext": build_ext},
-    install_requires=[
-        "pybind11>=2.6.0",
-    ],
     setup_requires=[
         "pybind11>=2.6.0",
     ],

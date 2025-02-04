@@ -32,5 +32,8 @@ setup(
     install_requires=[
         "pybind11>=2.6.0",
     ],
+    setup_requires=[
+        "pybind11>=2.6.0",
+    ],
     zip_safe=False,
 )
